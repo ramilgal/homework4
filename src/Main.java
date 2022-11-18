@@ -55,7 +55,7 @@ public class Main {
         } else {
             System.out.println("Возраст совершеннолетия ещё не наступил, нужно немного подождать");
         }
-        //домашнее задание 2, задача 1
+        //домашнее задание 2, задача 2
         System.out.println("Домашнее задание 2, Задание 2");
         int ageChild1 = 7;
         if (ageChild1 >= 7) {
@@ -74,6 +74,32 @@ public class Main {
             System.out.println("Человек окончил университет и ему пора искать первую работу");
         } else {
             System.out.println("Человек еще не окончил университет и ему еще рано искать первую работу");
+        }
+        //домашнее задание 2, задача 3
+        System.out.println("Домашнее задание 2, Задача 3");
+        int capacityTrain1 = 102;
+        int capacitySittingPlace1 = 60;
+        int capacityStandingPlace1 = capacityTrain1 - capacitySittingPlace1;
+        int sittingPlace1 = 60;
+        if (sittingPlace1 >= 60) {
+            System.out.println("Сидячих мест в вагоне нет");
+        }
+        else {
+            System.out.println("Сидячие места в вагоне есть");
+        }
+        int standingPlace1 = 42;
+        if (standingPlace1 < capacityStandingPlace1) {
+            System.out.println("Есть стоячее место в вагоне");
+        }
+        else {
+            System.out.println("Стоячих мест в вагоне нет");
+        }
+        int allPlaces1 = 102;
+        if (allPlaces1 >= 102) {
+            System.out.println("Вагон уже полностью забит");
+        }
+        else {
+            System.out.println("Вагон еще не полностью забит");
         }
     }
 }
