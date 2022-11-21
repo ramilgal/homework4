@@ -101,5 +101,61 @@ public class Main {
         else {
             System.out.println("Вагон еще не полностью забит");
         }
+
+        //домашнее задание 3, задача 1
+        System.out.println("Домашнее задание 3, Задание 1");
+        int age2 = 3;
+        if (age2 >= 2 && age2 <= 6) {
+            System.out.println("Если возраст человека равен " + age2 + ", то ему нужно ходить в детский сад");
+        }
+        int age3 = 7;
+        if (age3 >= 7 && age3 <= 18) {
+            System.out.println("Если возраст человека равен " + age3 + ", то ему нужно ходить в школу");
+        }
+        int age4 = 20;
+        if (age4 >= 18 && age4 <= 24) {
+            System.out.println("Если возраст человека равен " + age4 + ", то ему нужно ходить в университет");
+        }
+        int age5 = 25;
+        if (age5 > 24 ) {
+            System.out.println("Если возраст человека равен " + age5 + ", то ему нужно ходить на работу");
+        }
+        //домашнее задание 3, задача 2
+        System.out.println("Домашнее задание 3, Задание 2");
+        int age6 = 4;
+        if (age6 < 5 ) {
+            System.out.println("Если ребенку " + age6 + " года, то он не может кататься на аттракционе");
+        }
+        int age7 = 6;
+        if (age7 >= 5 && age7 < 14) {
+            System.out.println("Если ребенку " + age7 + " лет, то он может кататься на аттракционе только в сопровождении взрослого. Если взрослого нет, то кататься нельзя");
+        }
+        int age8 = 14;
+        if (age8 >= 14) {
+            System.out.println("Если ребенку " + age8 + " лет, то он может кататься на аттракционе без сопровождения взрослого");
+        }
+        //домашнее задание 3, задача 3
+        System.out.println("Домашнее задание 3, Задание 3");
+        int one = 1;
+        int two = 2;
+        int free = 3;
+        if (one > two && one > free) {
+            System.out.println("Число " + one + " самое большее");
+        }
+        else {
+            System.out.println("Число " + one + " не самое большое");
+        }
+        if (two > one && two > free) {
+            System.out.println("Число " + two + " самое большее");
+        }
+        else {
+            System.out.println("Число " + two + " не самое большое");
+        }
+        if (free > two && free > one) {
+            System.out.println("Число " + free + " самое большее");
+        }
+        else {
+            System.out.println("Число " + free + " не самое большое");
+        }
     }
 }
